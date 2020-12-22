@@ -1,0 +1,8 @@
+.button.actionButton {
+    padding: 8px !important;
+}
+
+.button.actionButton img {
+    left: 6px;
+    position: absolute;
+}
