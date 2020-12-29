@@ -6,6 +6,22 @@
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <base href="./">
+  <!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!--===============================================================================================-->
   <title>Manel Mariscal</title>
   <meta property="og:title" content="Manel Mariscal" />
   <meta name="twitter:title" content="Manel Mariscal" />
@@ -78,14 +94,13 @@
         <div class="wrap">
           <div class="fix-7-12">
             <h1 class="smaller margin-bottom-2 ae-1">Hola!</h1>
-            <h1 class="smaller margin-bottom-2 ae-1">That's Manel</h1>
-            <h1 class="smaller margin-bottom-2 ae-1">and I am</h1>
+            <h1 class="smaller margin-bottom-2 ae-1">That's Manel and I am</h1>
             <br>
-            <p class="large ae-2"><span class="opacity-8">Hybrid app creator (Android, iOS, Windows, PWA)</span></p>
-            <p class="large ae-3"><span class="opacity-8">Python developer</span></p>
-            <p class="large ae-3"><span class="opacity-8">Android certified developer</span></p>
-            <p class="large ae-4"><span class="opacity-8">System administrator</span></p>
-            <p class="large ae-5"><span class="opacity-8">DevOps</span></p>
+            <p class="large ae-2"><span class="opacity-8">Hybrid app creator (Android, iOS, PWA, Windows +2y)</span></p>
+            <p class="large ae-3"><span class="opacity-8">Python developer (2y)</span></p>
+            <p class="large ae-3"><span class="opacity-8">Android certified developer (ATC)</span></p>
+            <p class="large ae-4"><span class="opacity-8">System administrator (+1y)</span></p>
+            <p class="large ae-5"><span class="opacity-8">DevOps (1y)</span></p>
             <p class="large ae-5"><span class="opacity-8">Rider</span></p>
             <p class="large ae-5"><span class="opacity-8">Chef</span></p>
             <p class="large ae-6"><span class="opacity-8">Among other things...</span></p>
@@ -145,12 +160,42 @@
         <div class="wrap">
           <div class="fix-7-12">
             <h1 class="smaller margin-bottom-2 ae-1">Contact</h1>
-            <p><span><a href="mailto:mariscal.manel@gmail.com">mariscal.manel@gmail.com</a></span></p>
+            
+            <form method="post" enctype="text/plain" action="mailto:mariscal.manel@gmail.com" class="validate-form">
+              <div class="wrap-input100 validate-input" data-validate="Name is required">
+                <input class="input100" type="text" name="name" placeholder="Name">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </span>
+              </div>
+
+              <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                <input class="input100" type="text" name="email" placeholder="Email">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </span>
+              </div>
+
+              <div class="wrap-input100 validate-input" data-validate="Message is required">
+                <textarea class="input100" name="message" placeholder="Message"></textarea>
+                <span class="focus-input100"></span>
+              </div>
+
+              <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn">
+                  Send
+                </button>
+              </div>
+            </form>
+            <br>
             <a href="https://www.linkedin.com/in/manuel-mariscal-84898296/">
               <img
                 src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"
                 width="36px">
             </a>
+            <br>
             <p class="large ae-3"><span class="opacity-8">Barcelona</span></p>
           </div>
         </div>
@@ -170,14 +215,16 @@
         </ul>
       </div>
       <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger">
-        <img width="25px" src="https://www.freeiconspng.com/uploads/file-sharing-share-sharing-social-media-icon--28.png">
-      </span></div>
+          <img width="25px"
+            src="https://www.freeiconspng.com/uploads/file-sharing-share-sharing-social-media-icon--28.png">
+        </span></div>
     </div>
     <div class="sections compact hidden">
       <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger">
-        <img width="25px" src="https://www.freeiconspng.com/uploads/file-sharing-share-sharing-social-media-icon--28.png">
+          <img width="25px"
+            src="https://www.freeiconspng.com/uploads/file-sharing-share-sharing-social-media-icon--28.png">
 
-      </span></div>
+        </span></div>
     </div>
   </nav>
 
@@ -201,7 +248,8 @@
           src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-logotipo-de-icono-de-instagram-by-vexels.png">
       </li>
       <li class="social-linkedin">
-        <img width="25px" src="https://www.vexels.com/media/users/3/137382/isolated/thumb/c59b2807ea44f0d70f41ca73c61d281d-linkedin-icon-logo-by-vexels.png">
+        <img width="25px"
+          src="https://www.vexels.com/media/users/3/137382/isolated/thumb/c59b2807ea44f0d70f41ca73c61d281d-linkedin-icon-logo-by-vexels.png">
       </li>
       <li class="mail" data-subject="Subject">share by email</li>
     </ul>
@@ -212,7 +260,32 @@
 
   <!-- Compressed Scripts -->
   <script src="js/slides.min.js?511351" type="text/javascript"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/tilt/tilt.jquery.min.js"></script>
+  <script>
+    $('.js-tilt').tilt({
+      scale: 1.1
+    })
+  </script>
+  <!--===============================================================================================-->
+  <script src="js/main.js"></script>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
 </body>
 
 </html>
