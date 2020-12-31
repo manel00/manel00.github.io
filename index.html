@@ -165,8 +165,8 @@
           <div class="fix-7-12">
             <h1 class="smaller margin-bottom-2 ae-1">Contact</h1>
 
-            <form method="post" enctype="text/plain" action="mailto:mariscal.manel@gmail.com?Subject=Request"
-              class="validate-form">
+            <form method="post" target="_top" enctype="text/plain"
+              class="validate-form questionnaire">
               <div class="wrap-input100 validate-input" data-validate="Name is required">
                 <input class="input100" type="text" name="name" placeholder="Name">
                 <span class="focus-input100"></span>
@@ -193,17 +193,6 @@
                   Send
                 </button>
               </div>
-            </form>
-
-            <form class="questionnaire" target="_top" method="post" enctype="text/plain">
-
-
-              First name:<br>
-              <input type="text" name="firstname" value="Foo">
-              <br> Last name:<br>
-              <input type="text" name="lastname" value="bar">
-              <br><br>
-              <input type="submit" value="Submit">
             </form>
             
             <a class="mail" href="mailto:someone@example.com?Subject=Hello%20again" target="_top" style="display: none;">Send Mail</a>
