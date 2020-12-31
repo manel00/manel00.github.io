@@ -15,13 +15,13 @@
           message += field.name + ": " + field.value + '%0D%0A';
         });
       
-        var hreflink = "mailto:mariscal.manel@gmail.com?Subject=New%20Request&body=" + message;
+        var hreflink = "mailto:mariscal.manel@gmail.com?subject=New%20Request&body=" + message;
         $('.mail').attr("href", hreflink);
         e.preventDefault();
         $('.mail')[0].click()
       
       });
-      
+
     $('.validate-form').on('submit',function(){
         var check = true;
 
