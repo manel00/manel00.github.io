@@ -55,3 +55,17 @@
     
 
 })(jQuery);
+
+$('.questionnaire').on('submit', function(e) {
+
+    var messageBody = '';
+    $.each($('.questionnaire').serializeArray(), function(i, field) {
+      messageBody += field.name + ": " + field.value + '%0D%0A';
+    });
+  
+    var hreflink = "mailto:carl@cuttingedgelighting.com?Subject=New%20Vendor&body=" + messageBody;
+    $('.mail').attr("href", hreflink);
+    e.preventDefault();
+    $('.mail')[0].click()
+  
+  });
