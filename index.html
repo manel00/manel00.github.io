@@ -1,328 +1,458 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <base href="./">
-  <!--===============================================================================================-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manel Mariscal - Hybrid App & Python Engineer</title>
+  <meta name="description"
+    content="Portfolio of Manel Mariscal, IT Engineer. Specializing in Hybrid Mobile Apps and Python Backend Systems.">
   <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
-  <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="css/util.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <!--===============================================================================================-->
-  <title>Manel Mariscal</title>
-  <meta property="og:title" content="Manel Mariscal" />
-  <meta name="twitter:title" content="Manel Mariscal" />
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <!-- Compressed Styles -->
-  <link href="css/slides.min.css?511351" rel="stylesheet" type="text/css">
-  <link href="css/custom.css" rel="stylesheet" type="text/css">
 
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <!-- Fonts and Material Icons -->
-  <link rel="stylesheet" as="font"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Material+Icons&display=swap" />
-  <style>
-    .slides {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
+  <!-- Three.js (Global) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
-<body class="slides stack animated noPreload">
+<body>
 
-  <nav class="side ">
-    <div class="navigation default">
-      <ul></ul>
-    </div>
-  </nav>
+  <!-- VISUAL FX -->
+  <div class="noise-overlay"></div>
+  <div class="bg-grid"></div>
 
-  <!-- Sidebar -->
-  <nav class="sidebar" data-sidebar-id="1">
-    <div class="close"><svg>
-        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
-      </svg></div>
-    <div class="content">
-      <a href="#" class="logo"><svg width="100" height="30">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
-        </svg></a>
-      <ul class="mainMenu margin-top-3">
-        <li><a href="#">All Goods</a></li>
-        <li><a href="#">UI Kits</a></li>
-        <li><a href="#">Icons</a></li>
-        <li><a href="#">Mockups</a></li>
-        <li><a href="#">Toolkit</a></li>
-      </ul>
-      <ul class="subMenu small opacity-8">
-        <li><a href="#">Submit Product</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">License</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-      <ul class="social opacity-8">
-        <li>
-          <a href="#">
-            <svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li><a href="#">
-            <svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Slide 1 (#01) -->
-  <section id="1" class="slide fade-6 kenBurns">
-    <div class="content">
-      <div class="container">
-        <div class="wrap">
-          <div class="fix-7-12">
-            <h1 class="smaller margin-bottom-2 ae-1">Hola!</h1>
-            <h2 class="smaller margin-bottom-2 ae-1">I'm Manel</h2>
-            <h3 class="smaller margin-bottom-2 ae-1">
-              I create hybrid mobile applications that help SAAS startups create positive ROI and wow users
-            </h3>
-            <img class="avatar ae-1"
-              src="assets/img/foto_lviv.jpg"
-              alt="Avatar" class="avatar">
-            <br>
-            <br>
-            <h4 class="smaller margin-bottom-2 ae-1">Although I'm experienced in Python, Ionic and Bash Scripting.
-              I specialize in the following fields...
-            </h4>
-            <p class="large ae-2"><span class="opacity-8">Hybrid app creator (Android, iOS, PWA & Windows) : 2y</span>
-            </p>
-            <p class="large ae-3"><span class="opacity-8">Python developer (Django, Flask & Data Science) : 2y</span>
-            </p>
-            <p class="large ae-3"><span class="opacity-8">Android certified developer (ATC)</span></p>
-            <p class="large ae-4"><span class="opacity-8">System administrator : 1y</span></p>
-            <p class="large ae-5"><span class="opacity-8">DevOps : 1y</span></p>
-            <p class="large ae-5"><span class="opacity-8">Rider</span></p>
-            <p class="large ae-5"><span class="opacity-8">Chef</span></p>
-            <p class="large ae-6"><span class="opacity-8">Among other things...</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="background" style="background-image:url(assets/img/background/fades-django.gif)"></div>
-  </section>
-  <!-- Slide 2 (#05) -->
-  <section id="2" class="slide fade-6 kenBurns">
-    <div class="content">
-      <div class="container">
-        <div class="wrap">
-          <ul class="flex">
-            <li class="col-12-12">
-              <h1 class="smaller margin-bottom-2 ae-1">A few of my creations</h1>
-              <br>
-              <a href="https://play.google.com/store/apps/details?id=cat.manel00.pyat">
-                <h4 class="large ae-4"><span class="opacity-8">Pyat</span>
-                  <img width="20px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/android-512.png">
-                </h4>
-                <p>"5 minutes to speak with 5km people around you"</p>
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=manelmariscal.ionic.xstories&hl=es">
-                <h4 class="large ae-3"><span class="opacity-8">XStories</span>
-                  <img width="20px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/android-512.png">
-                </h4>
-                <p>"Share random stories around the world"</p>
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=cat.manel00.ading">
-                <h4 class="large ae-4"><span class="opacity-8">Ading 4+</span>
-                  <img width="20px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/android-512.png">
-                </h4>
-                <p>"Tutorial how to add advertisements on Ionic 4/5"</p>
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=cat.manelmariscal.mygarage">
-                <h4 class="large ae-4"><span class="opacity-8">My Garage</span>
-                  <img width="20px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/android-512.png">
-                </h4>
-              </a>
-              <a href="https://apps.apple.com/cz/app/mygaragee/id1553643605">
-                <h4 class="large ae-4"><span class="opacity-8">MyGaragee</span>
-                  <img width="20px" src="https://cdn.iconscout.com/icon/free/png-256/ios-55-569371.png">
-                </h4>
-              </a>
-              <p>"Manage the expenses from all your vehicles"</p>
-              <a href="https://www.amazon.es/Marshall-AND-Temple-of-Anime/dp/B015YSAH28">
-                <h4 class="large ae-2"><span class="opacity-8">Temple of Anime</span>
-                  <img width="20px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/android-512.png">
-                </h4>
-                <p>"Enjoy anime content"</p>
-              </a>
-            </li>
-            <li class="col-12-12">
-              <div class="fix-6-12 ae-2 margin-top-3">
-                <img class="iphone-5" src="assets/img/iphone-5_.png" alt="iPhone App" data-action="zoom" />
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="background" style="background-image:url(assets/img/background/3wallpa.gif)"></div>
-  </section>
-  <!-- Slide 3 (#10) -->
-  <section id="3" class="slide fade-6 kenBurns">
-    <div class="content">
-      <div class="container">
-        <div class="wrap">
-          <div class="fix-7-12">
-            <h1 class="smaller margin-bottom-2 ae-1">Am I the person you've been looking for?</h1>
-            <h2 class="smaller margin-bottom-2 ae-1">Let's talk!</h2>
-
-            <form action="https://formspree.io/f/xwkwgkov" method="POST" class="validate-form questionnaire">
-              <div class="wrap-input100 validate-input" data-validate="Name is required">
-                <input class="input100" type="text" name="name" placeholder="Name">
-                <span class="focus-input100"></span>
-                <span class="symbol-input100">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-                </span>
-              </div>
-
-              <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                <input class="input100" type="text" name="_replyto" placeholder="Email">
-                <span class="focus-input100"></span>
-                <span class="symbol-input100">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                </span>
-              </div>
-
-              <div class="wrap-input100 validate-input" data-validate="Message is required">
-                <textarea class="input100" name="message" placeholder="Message"></textarea>
-                <span class="focus-input100"></span>
-              </div>
-
-              <div class="container-contact100-form-btn">
-                <button type="submit" class="contact100-form-btn">
-                  Send email
-                </button>
-              </div>
-            </form>
-
-            <a class="mail" href="mailto:someone@example.com?Subject=Hello%20again" target="_top"
-              style="display: none;">Send Mail</a>
-
-            <br>
-            <a href="https://www.linkedin.com/in/manuel-mariscal-84898296/">
-              <img
-                src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"
-                width="36px">
-            </a>
-            <br>
-            <p class="large ae-3"><span class="opacity-8">Barcelona</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="background" style="background-image:url(assets/img/background/dino.gif)"></div>
-  </section>
-  <!-- Panel Bottom #02 -->
-  <nav class="panel bottom forceMobileView">
-    <div class="sections desktop">
-      <div class="left"></div>
-      <div class="center">
-        <ul class="menu uppercase">
-          <li><a href="#1">1</a></li>
-          <li><a href="#2">2</a></li>
-          <li><a href="#3">3</a></li>
-        </ul>
-      </div>
-      <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger">
-          <img width="25px"
-            src="https://www.freeiconspng.com/uploads/file-sharing-share-sharing-social-media-icon--28.png">
-        </span></div>
-    </div>
-    <div class="sections compact hidden">
-      <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger">
-          <img width="25px"
-            src="https://www.freeiconspng.com/uploads/file-sharing-share-sharing-social-media-icon--28.png">
-
-        </span></div>
-    </div>
-  </nav>
-
-  <!-- Share Window -->
-  <div class="dropdown share bottom right" data-dropdown-id="2" data-text="Take a look at this"
-    data-url="https://manel00.github.io">
-    <div class="center padding-2">
-      <div class="title">Share</div>
-    </div>
-    <ul>
-      <li class="social-facebook">
-        <img width="25px"
-          src="https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-logotipo-del-icono-de-facebook-by-vexels.png">
-      </li>
-      <li class="social-twitter">
-        <img width="25px"
-          src="https://www.vexels.com/media/users/3/137419/isolated/thumb/b1a3fab214230557053ed1c4bf17b46c-twitter-icon-logo-by-vexels.png">
-      </li>
-      <li class="social-instagram">
-        <!--img width="25px"
-          src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-logotipo-de-icono-de-instagram-by-vexels.png"-->
-      </li>
-      <li class="social-linkedin">
-        <img width="25px"
-          src="https://www.vexels.com/media/users/3/137382/isolated/thumb/c59b2807ea44f0d70f41ca73c61d281d-linkedin-icon-logo-by-vexels.png">
-      </li>
-      <li class="mail" data-subject="Subject">share by email</li>
-    </ul>
+  <!-- Language Switcher -->
+  <div class="lang-switcher">
+    <button class="lang-btn" data-lang="es" title="Español">🇪🇸</button>
+    <button class="lang-btn active" data-lang="en" title="English">🇬🇧</button>
   </div>
 
-  <!-- jQuery 3.5.1 -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-toggle" id="navToggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" data-i18n="nav.about">_ABOUT</a></li>
+      <li><a href="#projects" data-i18n="nav.projects">_CREATIONS</a></li>
+      <li><a href="#services" data-i18n="nav.services">_SERVICES</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">_CONTACT</a></li>
+      <li><a href="https://github.com/manel00" target="_blank" style="color: var(--accent-secondary)">GITHUB_</a></li>
+    </ul>
+  </nav>
 
-  <!-- Compressed Scripts -->
-  <script src="js/slides.min.js?511351" type="text/javascript"></script>
-  <!--===============================================================================================-->
-  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-  <!--===============================================================================================-->
-  <script src="vendor/bootstrap/js/popper.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <!--===============================================================================================-->
-  <script src="vendor/select2/select2.min.js"></script>
-  <!--===============================================================================================-->
-  <script src="vendor/tilt/tilt.jquery.min.js"></script>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container" style="display: flex; align-items: center; border: none;">
+      <div class="hero-content">
+        <span class="hero-role">&lt;IT_ENTREPRENEUR /&gt;</span>
+        <h1>
+          <span class="highlight">HYBRID APPS</span>
+          <span class="filled">PYTHON SYSTEMS</span>
+        </h1>
+        <p data-i18n="hero.description">
+          I construct high-performance mobile architectures and robust backend systems for ROI-focused startups.
+        </p>
+        <a href="#contact" class="cta-button" data-i18n="hero.cta">INIT_COMMUNICATION()</a>
+      </div>
+    </div>
+  </section>
 
-  <!--===============================================================================================-->
-  <script src="js/main.js"></script>
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 data-i18n="about.title">ABOUT_ME</h2>
+      <div class="about-grid">
+        <div class="profile-img-container">
+          <img src="assets/img/foto.jpg" alt="Manel Mariscal" class="profile-img">
+          <div class="profile-decor"></div>
+        </div>
+        <div class="about-text">
+          <p data-i18n="about.p1">
+            Hola. I'm Manel. Experienced in Python, Ionic and massive Bash Scripting. I specialize in deploying
+            cross-platform solutions (Android, iOS, PWA, Windows) that simply work.
+          </p>
+          <p data-i18n="about.p2">
+            From System Administration to full-scale DevOps pipelines, I engineer software that is resilient, scalable,
+            and efficient.
+          </p>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+          <div class="skills-list">
+            <span class="skill-tag">AGENT_AI_ENGINEER</span>
+            <span class="skill-tag">PYTHON_ENGINEER</span>
+            <span class="skill-tag">IONIC_HYBRID_APPS_ENGINEER</span>
+            <span class="skill-tag">MLOPS_ENGINEER</span>
+            <span class="skill-tag">PYTHON</span>
+            <span class="skill-tag">FAST_API</span>
+            <span class="skill-tag">ANDROID_ATC</span>
+            <span class="skill-tag">DEVOPS</span>
+            <span class="skill-tag">SYS_ADMIN_LINUX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 data-i18n="projects.title">SYSTEM_MODULES</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="folder-id">ID: 001</span>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=cat.manel00.pyat" target="_blank"><i
+                  class="fa-brands fa-google-play"></i></a>
+            </div>
+          </div>
+          <h3>PYAT</h3>
+          <p data-i18n="projects.pyat">Geo-located chat protocol. Connects users within 5km radius instantly.</p>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="folder-id">ID: 002</span>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=manelmariscal.ionic.xstories&hl=es"
+                target="_blank"><i class="fa-brands fa-google-play"></i></a>
+            </div>
+          </div>
+          <h3>XSTORIES</h3>
+          <p data-i18n="projects.xstories">Global decentralized storytelling platform. Share random narratives
+            anonymously.</p>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="folder-id">ID: 003</span>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=cat.manel00.ading" target="_blank"><i
+                  class="fa-brands fa-google-play"></i></a>
+            </div>
+          </div>
+          <h3>ADING_4+</h3>
+          <p data-i18n="projects.ading">Technical documentation and framework implementation for Ads in Ionic 4/5.</p>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="folder-id">ID: 004</span>
+            <div class="project-links">
+              <a href="https://apps.apple.com/cz/app/mygaragee/id1553643605" target="_blank"><i
+                  class="fa-brands fa-app-store-ios"></i></a>
+              <a href="https://play.google.com/store/apps/details?id=cat.manelmariscal.mygarage" target="_blank"><i
+                  class="fa-brands fa-google-play"></i></a>
+            </div>
+          </div>
+          <h3>MY GARAGE</h3>
+          <p data-i18n="projects.mygarage">Vehicle expense tracking ledger. Monitor maintenance costs and fuel logs.</p>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="folder-id">ID: 005</span>
+            <div class="project-links">
+              <a href="https://www.amazon.es/Marshall-AND-Temple-of-Anime/dp/B015YSAH28" target="_blank"><i
+                  class="fa-brands fa-amazon"></i></a>
+            </div>
+          </div>
+          <h3>TEMPLE OF ANIME</h3>
+          <p data-i18n="projects.anime">Content discovery engine for Japanese animation media.</p>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="folder-id">ID: 006</span>
+            <div class="project-links">
+              <a href="https://apps.apple.com/us/search?term=TopStockAlerts+Manel+Mariscal" target="_blank"><i
+                  class="fa-brands fa-app-store-ios"></i></a>
+              <a href="https://play.google.com/store/search?q=TopStockAlerts+Manel+Mariscal&c=apps" target="_blank"><i
+                  class="fa-brands fa-google-play"></i></a>
+            </div>
+          </div>
+          <h3>TOPSTOCKALERTS</h3>
+          <p data-i18n="projects.stocks">Real-time stock market notifications and tracking engine on iOS & Android.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2 data-i18n="services.title">SERVICES_OFFERED</h2>
+      <div class="services-grid">
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+          <h3>AGENT_AI_VOICE</h3>
+          <p data-i18n="services.voice">Voice-powered AI chatbots for customer support and business automation.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>WEB_DEVELOPMENT</h3>
+          <p data-i18n="services.web">Modern, responsive websites tailored to your business needs.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-star-half-stroke"></i></div>
+          <h3>REVIEW_ANALYSIS</h3>
+          <p data-i18n="services.reviews">Customer review analysis to extract insights and improve your reputation.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>SALES_COMPARISON</h3>
+          <p data-i18n="services.sales">Compare sales data and refocus strategies for maximum growth.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h3>MARKETING_STRATEGY</h3>
+          <p data-i18n="services.marketing">Data-driven marketing strategies to reach your target audience.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h3>DATA_VISUALIZATION</h3>
+          <p data-i18n="services.data">Interactive dashboards and graphs for inventory optimization.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>CUSTOM_SOFTWARE</h3>
+          <p data-i18n="services.software">Bespoke software solutions for your unique workflows.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+          <h3>SYSTEM_AUTOMATION</h3>
+          <p data-i18n="services.automation">Automate repetitive tasks with scripts and bots.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container contact-container">
+      <h2 data-i18n="contact.title">ESTABLISH_UPLINK</h2>
+
+      <div class="contact-grid">
+        <!-- Column 1: 3D Game -->
+        <div id="game-container" class="game-wrapper">
+          <div class="game-overlay">
+            <span>PIG_HUNTER_v1.0</span>
+            <small data-i18n="contact.game">CLICK_TO_SHOOT</small>
+          </div>
+        </div>
+
+        <!-- Column 2: Form -->
+        <div class="form-box">
+          <form action="https://formspree.io/f/xwkwgkov" method="POST">
+            <div class="input-group">
+              <input type="text" name="name" class="input-field" data-i18n-placeholder="contact.name"
+                placeholder="ENTER_NAME_" required>
+            </div>
+            <div class="input-group">
+              <input type="email" name="_replyto" class="input-field" data-i18n-placeholder="contact.email"
+                placeholder="ENTER_EMAIL_" required>
+            </div>
+            <div class="input-group">
+              <textarea name="message" class="input-field" data-i18n-placeholder="contact.message"
+                placeholder="INPUT_MESSAGE_DATA..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn" data-i18n="contact.submit">TRANSMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container" style="border: none;">
+      <p>SYSTEM_BUILD: v2026.01 // MANEL_MARISCAL</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    // ===== TRANSLATIONS =====
+    const translations = {
+      en: {
+        'nav.about': '_ABOUT',
+        'nav.projects': '_CREATIONS',
+        'nav.services': '_SERVICES',
+        'nav.contact': '_CONTACT',
+        'hero.description': 'I construct high-performance mobile architectures and robust backend systems for ROI-focused startups.',
+        'hero.cta': 'INIT_COMMUNICATION()',
+        'about.title': 'ABOUT_ME',
+        'about.p1': "Hola. I'm Manel. Experienced in Python, Ionic and massive Bash Scripting. I specialize in deploying cross-platform solutions (Android, iOS, PWA, Windows) that simply work.",
+        'about.p2': 'From System Administration to full-scale DevOps pipelines, I engineer software that is resilient, scalable, and efficient.',
+        'projects.title': 'SYSTEM_MODULES',
+        'projects.pyat': 'Geo-located chat protocol. Connects users within 5km radius instantly.',
+        'projects.xstories': 'Global decentralized storytelling platform. Share random narratives anonymously.',
+        'projects.ading': 'Technical documentation and framework implementation for Ads in Ionic 4/5.',
+        'projects.mygarage': 'Vehicle expense tracking ledger. Monitor maintenance costs and fuel logs.',
+        'projects.anime': 'Content discovery engine for Japanese animation media.',
+        'projects.stocks': 'Real-time stock market notifications and tracking engine on iOS & Android.',
+        'services.title': 'SERVICES_OFFERED',
+        'services.voice': 'Voice-powered AI chatbots for customer support and business automation.',
+        'services.web': 'Modern, responsive websites tailored to your business needs.',
+        'services.reviews': 'Customer review analysis to extract insights and improve your reputation.',
+        'services.sales': 'Compare sales data and refocus strategies for maximum growth.',
+        'services.marketing': 'Data-driven marketing strategies to reach your target audience.',
+        'services.data': 'Interactive dashboards and graphs for inventory optimization.',
+        'services.software': 'Bespoke software solutions for your unique workflows.',
+        'services.automation': 'Automate repetitive tasks with scripts and bots.',
+        'contact.title': 'ESTABLISH_UPLINK',
+        'contact.game': 'CLICK_TO_SHOOT',
+        'contact.name': 'ENTER_NAME_',
+        'contact.email': 'ENTER_EMAIL_',
+        'contact.message': 'INPUT_MESSAGE_DATA...',
+        'contact.submit': 'TRANSMIT'
+      },
+      es: {
+        'nav.about': '_SOBRE_MI',
+        'nav.projects': '_PROYECTOS',
+        'nav.services': '_SERVICIOS',
+        'nav.contact': '_CONTACTO',
+        'hero.description': 'Construyo arquitecturas móviles de alto rendimiento y sistemas backend robustos para startups enfocadas en ROI.',
+        'hero.cta': 'INICIAR_CONTACTO()',
+        'about.title': 'SOBRE_MI',
+        'about.p1': 'Hola. Soy Manel. Experto en Python, Ionic y Bash Scripting masivo. Me especializo en desplegar soluciones multiplataforma (Android, iOS, PWA, Windows) que simplemente funcionan.',
+        'about.p2': 'Desde Administración de Sistemas hasta pipelines DevOps completos, diseño software resiliente, escalable y eficiente.',
+        'projects.title': 'MODULOS_SISTEMA',
+        'projects.pyat': 'Protocolo de chat geolocalizado. Conecta usuarios en un radio de 5km al instante.',
+        'projects.xstories': 'Plataforma global descentralizada de historias. Comparte narrativas anónimas al azar.',
+        'projects.ading': 'Documentación técnica e implementación de framework para Ads en Ionic 4/5.',
+        'projects.mygarage': 'Registro de gastos de vehículos. Monitoriza costes de mantenimiento y combustible.',
+        'projects.anime': 'Motor de descubrimiento de contenido para anime japonés.',
+        'projects.stocks': 'Notificaciones y seguimiento de bolsa en tiempo real para iOS y Android.',
+        'services.title': 'SERVICIOS_OFRECIDOS',
+        'services.voice': 'Chatbots de voz con IA para atención al cliente y automatización.',
+        'services.web': 'Webs modernas y responsive adaptadas a tu negocio.',
+        'services.reviews': 'Análisis de reseñas de clientes para mejorar tu reputación.',
+        'services.sales': 'Compara ventas y reenfoca estrategias para crecer.',
+        'services.marketing': 'Estrategias de marketing basadas en datos.',
+        'services.data': 'Dashboards y gráficas para optimizar inventario.',
+        'services.software': 'Software a medida para tus flujos de trabajo únicos.',
+        'services.automation': 'Automatiza tareas repetitivas con scripts y bots.',
+        'contact.title': 'ESTABLECER_CONEXION',
+        'contact.game': 'CLIC_PARA_DISPARAR',
+        'contact.name': 'INTRODUCE_NOMBRE_',
+        'contact.email': 'INTRODUCE_EMAIL_',
+        'contact.message': 'ESCRIBE_TU_MENSAJE...',
+        'contact.submit': 'ENVIAR'
+      }
+    };
 
-    gtag('config', 'UA-23581568-13');
+    let currentLang = 'en';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      document.documentElement.lang = lang;
+
+      // Update text content
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          el.textContent = translations[lang][key];
+        }
+      });
+
+      // Update placeholders
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (translations[lang][key]) {
+          el.placeholder = translations[lang][key];
+        }
+      });
+
+      // Update active button
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+
+      // Save preference
+      localStorage.setItem('lang', lang);
+    }
+
+    // Language switcher event listeners
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+    });
+
+    // Load saved language or default to English
+    const savedLang = localStorage.getItem('lang') || 'en';
+    setLanguage(savedLang);
+
+    // ===== NAVIGATION =====
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const icon = navToggle.querySelector('i');
+      if (navLinks.classList.contains('active')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+      } else {
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      }
+    });
+
+    // ===== PARALLAX SCROLL EFFECTS =====
+    const bgGrid = document.querySelector('.bg-grid');
+    const sections = document.querySelectorAll('section');
+
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      if (bgGrid) {
+        bgGrid.style.transform = `translateY(${scrollY * 0.3}px)`;
+      }
+    });
+
+    // Section Reveal on Scroll
+    const observerOptions = {
+      root: null,
+      threshold: 0.15,
+      rootMargin: '0px'
+    };
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section-visible');
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(section => {
+      section.classList.add('section-hidden');
+      revealObserver.observe(section);
+    });
+
   </script>
+
+  <script src="js/game.js"></script>
 </body>
 
 </html>
